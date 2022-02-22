@@ -1,8 +1,51 @@
 .bg-darkl {
-    background-color: #003b7e !important;
+    background-color: #e9e9f1 !important;
 }
 
 .bg-darkg {
-    background-color: #002856 !important;
+    background-color: #44464d !important;
 }
 
+/* Fonts */
+.font-fakeid {
+    font-family: FAKEID !important;
+}
+
+@font-face {
+    font-family: Trapstars;
+    src: url(../fonts/JudasCapsWd.ttf);
+}
+
+@font-face {
+    font-family: FAKEID;
+    src: url(../fonts/FAKEID.ttf);
+}
+
+
+/* Max Width*/
+.max-width-100 {
+    max-width: 100%;
+}
+
+.max-width-75 {
+    max-width: 75%;
+}
+
+.max-height-10em {
+    max-height: 8em;
+}
+
+/* Glowing Animation */
+@-webkit-keyframes pulse {
+    0% { box-shadow:0 0 0.4em #7f7e94, inset 0 0 0.4em #7f7e94; }
+    50% { box-shadow:0 0 2em #7f7e94, inset 0 0 1.4em #7f7e94; }
+    100% { box-shadow:0 0 0.4em #7f7e94, inset 0 0 0.4em #7f7e94; }
+  }
+  
+  .circle {
+    background-color:transparent;
+    border-radius:50%;
+    box-shadow: 0 0 8px #7f7e94, inset 0 0 8px #7f7e94;
+    -webkit-animation: pulse 2s linear 1s infinite;
+  }
+  
