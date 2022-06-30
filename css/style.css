@@ -1,28 +1,52 @@
+* {
+    font-family: sanfran !important;
+}
+
 .bg-darkl {
-    background-color: #e9e9f1 !important;
+    background-color: #F5F5F7 !important;
 }
 
 .bg-darkg {
     background-color: #44464d !important;
 }
 
+
 /* CARD */
+
 .card-shadow1 {
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
-    -o-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 
 /* Fonts */
+
+p {
+    color: #575a69 !important;
+}
+
 .font-fakeid {
     font-family: FAKEID !important;
+}
+
+.font-sanfran {
+    font-family: sanfran !important;
+}
+
+.font-trapstar {
+    font-family: Trapstars !important;
 }
 
 @font-face {
     font-family: Trapstars;
     src: url(../fonts/JudasCapsWd.ttf);
+}
+
+@font-face {
+    font-family: sanfran;
+    src: url(../fonts/sanfran.otf);
 }
 
 @font-face {
@@ -32,6 +56,7 @@
 
 
 /* Max Width*/
+
 .max-width-100 {
     max-width: 100%;
 }
@@ -44,21 +69,31 @@
     max-height: 8em;
 }
 
+
 /* Glowing Animation */
+
 @-webkit-keyframes pulse {
-    0% { box-shadow:0 0 0.4em #7f7e94, inset 0 0 0.4em #7f7e94; }
-    50% { box-shadow:0 0 2em #7f7e94, inset 0 0 1.4em #7f7e94; }
-    100% { box-shadow:0 0 0.4em #7f7e94, inset 0 0 0.4em #7f7e94; }
-  }
-  
-  .circle {
-    background-color:transparent;
-    border-radius:50%;
+    0% {
+        box-shadow: 0 0 0.4em #7f7e94, inset 0 0 0.4em #7f7e94;
+    }
+    50% {
+        box-shadow: 0 0 2em #7f7e94, inset 0 0 1.4em #7f7e94;
+    }
+    100% {
+        box-shadow: 0 0 0.4em #7f7e94, inset 0 0 0.4em #7f7e94;
+    }
+}
+
+.circle {
+    background-color: transparent;
+    border-radius: 50%;
     box-shadow: 0 0 8px #7f7e94, inset 0 0 8px #7f7e94;
     -webkit-animation: pulse 2s linear 1s infinite;
-  }
-  
+}
+
+
 /* Button Colours */
+
 .button-grey {
     background-color: #7c7c7c;
     border: #575a69;
@@ -66,8 +101,6 @@
     border-width: 1.4px;
     color: white;
     border-radius: 0.5em;
-
-    
 }
 
 .button-grey:hover {
