@@ -36,7 +36,7 @@ html {
 }
 
 .card-rounded {
-    border-radius: 1em !important;
+    border-radius: 2.3em !important;
     border-color: transparent;
 }
 
@@ -157,4 +157,8 @@ p {
     color: white;
     border-style: solid;
     border-width: 1.4px;
+}
+
+footer {
+    padding-bottom: 2em;
 }
