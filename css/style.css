@@ -2,12 +2,27 @@
     font-family: sanfran !important;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-white {
+    background-color: #ffffff !important;
+}
+
 .bg-darkl {
     background-color: #F5F5F7 !important;
 }
 
 .bg-darkg {
     background-color: #44464d !important;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.44);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.4px);
+    -webkit-backdrop-filter: blur(12.4px);
 }
 
 
@@ -20,23 +35,35 @@
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
+.card-rounded {
+    border-radius: 1em !important;
+    border-color: transparent;
+}
+
+.card-header {
+    background: rgba(255, 255, 255, 0.44);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+}
+
 
 /* Fonts */
 
-p {
-    color: #575a69 !important;
+h1 {
+    color: #1D1D1F;
 }
 
-.font-fakeid {
-    font-family: FAKEID !important;
+h2 {
+    color: #1D1D1F;
+}
+
+p {
+    color: #1D1D1F !important;
 }
 
 .font-sanfran {
     font-family: sanfran !important;
-}
-
-.font-trapstar {
-    font-family: Trapstars !important;
 }
 
 @font-face {
@@ -52,6 +79,13 @@ p {
 @font-face {
     font-family: FAKEID;
     src: url(../fonts/FAKEID.ttf);
+}
+
+
+/* Font Colours */
+
+.text-colour-blue1 {
+    color: #2892FF;
 }
 
 
